@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+   
+}
+.intro{
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+    color:blueviolet;
+}
+.intro h1{
+
+    background-color:rgb(255, 251, 0);
+    color:chocolate;
+    text-align: center;
+    padding: 30px;
+}
+.intro h2{
+    background-color: bisque;
+    color:coral;
+    text-align: center;
+    padding: 30px;
+}
+.main{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding:10px;
+
+}
+.main div{
+    width: 20%;
+    margin: 10px;
+    border: 5px solid green;
+    padding: 10px;
+    border-radius: 10px;
+}
